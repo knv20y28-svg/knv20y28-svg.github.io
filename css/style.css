@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+@media (min-width: 2400px) {
+    header, main, footer {
+        max-width: 2400px; /* Ограничиваем максимальную ширину */
+        margin: 0 auto; /* Центрируем */
+    }
+}
 
 
 @font-face {
@@ -48,3 +54,4 @@
         background-color: blanchedalmond;
     }
 }
+

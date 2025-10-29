@@ -3,12 +3,29 @@
     padding: 0;
 }
 
-@media (min-width: 2400px) {
-    header, main, footer {
-        max-width: 2400px; /* Ограничиваем максимальную ширину */
-        margin: 0 auto; /* Центрируем */
+/* Стили для мобильных устройств с разрешением 2400x1080 */
+@media only screen and (max-width: 1080px) {
+    body {
+        font-size: 16px; /* Размер шрифта */
+    }
+    
+    .container {
+        width: 90%; /* Ширина контейнера */
+        margin: auto; /* Центрирование */
     }
 }
+
+/* Если хотите задать конкретные правила для больших смартфонов */
+@media only screen and (min-height: 2400px) {
+    header {
+        height: 10vh; /* Высота шапки сайта относительно высоты экрана */
+    }
+
+    footer {
+        padding-bottom: 50px; /* Отступ снизу для футера */
+    }
+}
+
 
 
 @font-face {
@@ -54,4 +71,5 @@
         background-color: blanchedalmond;
     }
 }
+
 

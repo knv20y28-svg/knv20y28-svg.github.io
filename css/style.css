@@ -44,12 +44,12 @@
 
 @media (max-width: 390px){
     .gallery{
-        background-color: none;
+;
     }
-    .gallery_item{
-        background-color: none;
+    .gallery_item{;
     }
 }
+
 
 
 

@@ -46,7 +46,11 @@
     .gallery{
         background-color: none;
     }
+    .gallery_item{
+        background-color: none;
+    }
 }
+
 
 
 

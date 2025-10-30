@@ -44,9 +44,10 @@
 
 @media (max-width: 390px){
     .gallery{
-        background-color: blanchedalmond;
+        background-color: none;
     }
 }
+
 
 
 
